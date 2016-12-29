@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <title>星梦年华</title>
-<?php include 'template/common/commonStyle.php';?>
-<link rel="stylesheet" href="static/adminlte/plugins/datatables/dataTables.bootstrap.css">
+<?php require './template/common/commonStyle.php'; ?>
+<link rel="stylesheet" href="./static/adminlte/plugins/datatables/dataTables.bootstrap.css">
 </head>
-<body class="hold-transition skin-blue sidebar-mini <#if cookieMap?exists && "off" == cookieMap["adminlte_settings"].value >sidebar-collapse</#if>">
+<body class="hold-transition skin-blue sidebar-mini sidebar-collapse ">
 	<div class="wrapper">
 	<!-- header -->
-	<?php include 'template/common/commonHeader.php';?>
+	<?php include './template/common/commonHeader.php';?>
 	<!-- left -->
-	<?php include 'template/common/commonLeft.php';?>
+	<?php include './template/common/commonLeft.php';?>
 	<!-- Content Wrapper. Contains page content -->
 	<div class="content-wrapper">
 		<!-- Content Header (Page header) -->
@@ -33,18 +33,18 @@
 	</div>
 	
 	<!-- footer -->
-	<?php include 'template/common/commonFooter.php';?>
+	<?php include './template/common/commonFooter.php';?>
 </div>
 
-<?php include 'template/common/commonScript.php';?>
-<?php include 'template/common/commonAlert.php';?>
+<?php include './template/common/commonScript.php';?>
+<?php include './template/common/commonAlert.php';?>
 <!-- DataTables -->
-<script src="static/adminlte/plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="static/adminlte/plugins/datatables/dataTables.bootstrap.min.js"></script>
-<script src="static/plugins/jquery/jquery.validate.min.js"></script>
+<script src="./static/adminlte/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="./static/adminlte/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="./static/plugins/jquery/jquery.validate.min.js"></script>
 <!-- daterangepicker -->
-<script src="static/adminlte/plugins/daterangepicker/moment.min.js"></script>
-<script src="static/adminlte/plugins/daterangepicker/daterangepicker.js"></script>
-<script src="static/js/xzinfo.index.1.js"></script>
+<script src="./static/adminlte/plugins/daterangepicker/moment.min.js"></script>
+<script src="./static/adminlte/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="./static/js/xzinfo.index.1.js"></script>
 </body>
 </html>
